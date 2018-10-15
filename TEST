@@ -1,0 +1,53 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on('message', msg => {
+  if (msg.content === 'BIP BOUP') {
+    msg.reply('BOUP BIP');
+  }
+});
+
+
+var bite;
+	client.on('message', msg => {
+		
+		if (msg.content === 'taille') {
+		bite = 2 ;
+		msg.reply (bite);	}
+
+
+
+if (msg.content === 'nb') {
+msg.reply (bite); }
+
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+client.login('NDkyODQ2MjA4NTU0MTA2ODkx.DoelQA.zZxgjSHdbjbStNFmu49Wi2LMSfc');
+
